@@ -122,3 +122,6 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 CORS_ORIGIN_ALLOW_ALL = True
+
+# Mengaktifkan Django-Heroku.
+django_heroku.settings(locals())
