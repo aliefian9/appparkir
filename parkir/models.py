@@ -6,3 +6,10 @@ class Parkir(models.Model):
     
     def __str__(self):
         return self.Title
+
+class Jumlah(models.Model):
+    id = models.AutoField(primary_key=True, unique = True)
+    Tersedia = models.IntegerField()
+    
+    def __str__(self):
+        return self.id

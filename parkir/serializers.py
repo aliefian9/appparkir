@@ -8,3 +8,10 @@ class ParkirSerializer(serializers.ModelSerializer):
     class Meta:
         fields = ('id', 'Title', 'Status',)
         model = models.Parkir
+
+
+class JumlahSerializer(serializers.ModelSerializer):
+    
+    class Meta:
+        fields = ('id', 'Tersedia',)
+        model = models.Jumlah
