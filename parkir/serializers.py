@@ -13,5 +13,5 @@ class ParkirSerializer(serializers.ModelSerializer):
 class JumlahSerializer(serializers.ModelSerializer):
     
     class Meta:
-        fields = ('id', 'Tersedia',)
+        fields = ('Tersedia',)
         model = models.Jumlah
