@@ -9,7 +9,7 @@ class Parkir(models.Model):
 
 class Jumlah(models.Model):
     id = models.AutoField(primary_key=True, unique = True)
-    Tersedia = models.IntegerField(default=0)
+    Tersedia = models.IntegerField(default=1)
     
     def __str__(self):
         return self.id
