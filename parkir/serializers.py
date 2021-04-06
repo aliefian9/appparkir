@@ -6,7 +6,7 @@ from . import models
 class ParkirSerializer(serializers.ModelSerializer):
 
     class Meta:
-        fields = ('id', 'Title', 'Status',)
+        fields = ('Title', 'Status',)
         model = models.Parkir
 
 
